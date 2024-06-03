@@ -1,7 +1,7 @@
 import { cn } from '@/lib/utils'
 import React from 'react'
 
-type SpinnerProps = {
+export type SpinnerProps = {
   noPadding?: boolean
 }
 
