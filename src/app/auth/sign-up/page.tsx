@@ -5,7 +5,8 @@ import { RegistrationFormStep } from "@/components/forms/signup/registration-ste
 type Props = {
  
 }
-export const SignUp = ({}: Props) => {
+
+const SignUp = ({}: Props) => {
     return ( 
         <div className="flex-1 py-36 md:px-16 w-full" >
             <div className="flex lfex-col h-full gap-3" >
@@ -19,3 +20,5 @@ export const SignUp = ({}: Props) => {
         </div>
     );
 }
+
+export default SignUp
