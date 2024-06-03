@@ -7,7 +7,8 @@ import React from "react";
 type Props = {
     children: React.ReactNode;
 }
-export const Layout =  async ({
+
+const Layout =  async ({
     children
 }: Props) => {
     const user = await currentUser()
@@ -52,3 +53,6 @@ export const Layout =  async ({
         </div>
     );
 }
+
+
+export default Layout

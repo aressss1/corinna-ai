@@ -69,8 +69,6 @@ export const RegistrationFormStep = ({}: Props) => {
 
 
     return ( 
-        <div>
-            
-        </div>
+        <></>
     );
 }
