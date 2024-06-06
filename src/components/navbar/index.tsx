@@ -27,13 +27,15 @@ function NavBar() {
         <li>Features</li>
         <li>Contact us</li>
       </ul>
-      <ModeToggle />
-      <Link
-        href="/dashboard"
-        className="bg-orange px-4 py-2 rounded-sm text-white"
-      >
-        Free Trial
-      </Link>
+      <div className='flex gap-4' >
+        <ModeToggle />
+        <Link
+          href="/dashboard"
+          className="bg-orange px-4 py-2 rounded-sm text-white"
+        >
+          Free Trial
+        </Link>
+      </div>
     </div>
   )
 }
