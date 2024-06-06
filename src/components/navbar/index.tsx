@@ -2,6 +2,7 @@ import Image from 'next/image'
 import * as React from 'react'
 import { Button } from '../ui/button'
 import Link from 'next/link'
+import { ModeToggle } from '../ui/toggle-mode'
 
 function NavBar() {
   return (
@@ -26,6 +27,7 @@ function NavBar() {
         <li>Features</li>
         <li>Contact us</li>
       </ul>
+      <ModeToggle />
       <Link
         href="/dashboard"
         className="bg-orange px-4 py-2 rounded-sm text-white"
