@@ -44,7 +44,7 @@ export default async function Home() {
             alt="Logo"
             className="max-w-lg object-contain"
           />
-          <p className="text-center max-w-[500px]">
+          <p className="text-center max-w-[500px] -mt-6 ">
             Your AI powered sales assistant! Embed Corinna AI into any website
             with just a snippet of code!
           </p>
@@ -56,12 +56,12 @@ export default async function Home() {
             width={400}
             height={100}
             alt="Logo"
-            className="max-w-lg object-contain"
+            className="max-w-lg object-contain mt-8 "
           />
         </div>
       </section>
 
-      <section className="flex justify-center items-center flex-col gap-4 mt-10">
+      <section className="flex justify-center items-center flex-col gap-4 mt-28">
         <h2 className="text-4xl text-center"> Choose what fits you right</h2>
         <p className="text-muted-foreground text-center max-w-lg">
           Our straightforward pricing plans are tailored to meet your needs. If

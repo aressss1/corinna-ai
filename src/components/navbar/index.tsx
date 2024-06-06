@@ -20,7 +20,7 @@ function NavBar() {
           height={0}
         />
       </div>
-      <ul className="gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-700 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
+      <ul className="gap-5 justify-between self-stretch my-auto text-xs leading-5 text-neutral-700 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
         <li>Home</li>
         <li>Pricing</li>
         <li>News Room</li>
@@ -31,7 +31,7 @@ function NavBar() {
         <ModeToggle />
         <Link
           href="/dashboard"
-          className="bg-orange px-4 py-2 rounded-sm text-white"
+          className="bg-orange px-4 py-1 rounded-sm text-white"
         >
           Free Trial
         </Link>
